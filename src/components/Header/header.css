@@ -1,0 +1,70 @@
+.header {
+  font-family: "Source Sans Pro", sans-serif;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #131921;
+  top: 0;
+  z-index: 100;
+}
+.headerLogo {
+  width: 100px;
+  object-fit: contain;
+  margin: 15px 20px 0;
+}
+.headerSearch {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.headerSearchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+.headerSearchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+}
+.headerOption {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+.headerCartIcon {
+  color: white;
+  font-size: 18px;
+}
+.headerNav {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+.headerOptionLineOne {
+  font-size: 12px;
+}
+.headerOptionLineTwo {
+  font-size: 16px;
+  font-weight: 800;
+}
+.headerNav a,
+.headerNav a:hover,
+.headerNav a:active,
+.headerNav a:visited {
+  color: white;
+  text-decoration: none;
+}
+.headerOptionBasket {
+  display: flex;
+  align-items: center;
+  margin: 0 3px;
+  color: white;
+}
+.headerBasketCount {
+  margin: 0 10px;
+}
